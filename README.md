@@ -46,7 +46,7 @@ if __name__ == '__main__':
 ### Segmentation
 ```python
 if __name__ == '__main__':
-    dt = DetectionTransform()
+    dt = Segmentation()
     dt.add_resize((224, 224)) \
         .add_random_hsv() \
         .add_random_vertical_flip(0.5) \
